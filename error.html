@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<section class="error-card"><div class="error-code">{{ code }}</div><h1>Something went wrong</h1><p>{{ message }}</p><a class="primary button-link" href="{{ url_for('dashboard') if current_user else url_for('login') }}">Return to safety</a></section>{% endblock %}

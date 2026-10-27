@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+property_rental.db
+app.log
+backups/
+.env
